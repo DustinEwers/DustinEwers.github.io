@@ -2,11 +2,20 @@
 layout: default
 title: Dustin Ewers
 ---
-
-<div id="home">
-  <ul class="posts">
+<div id="col-md-12">
+  <ul class="list-unstyled">
     {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a>&raquo;<span>{{ post.date | date_to_string }}</span></li>
+      <li>
+      	<article>
+      		<header>
+      			<h3><a href="{{ post.url }}" class="title-link">{{ post.title }}</a></h3>
+      			<span>{{ post.date | date_to_string }}</span>
+      		</header>
+      		<p>
+      			{{ post.excerpt }}
+      		</p>
+      	</article>	
+      </li>
     {% endfor %}
   </ul>
 </div>

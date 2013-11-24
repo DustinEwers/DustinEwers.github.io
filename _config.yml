@@ -1,5 +1,21 @@
-name: Dustin Ewers
-tagline: Software Developer | Writer | Philomath
 permalink: /:title
 markdown: redcarpet
 pygments: true
+
+
+title: Dustin Ewers
+tagline: Software Developer | Writer | Philomath
+author:
+  name: Dustin Ewers
+  email: dustin.ewers@gmail.com
+  github: DustinEwers
+  twitter: DustinJEwers
+  linkedin: dustinewers
+
+production_url: http://www.dustinewers.com
+rss_path: /rss.xml
+
+
+
+
+
