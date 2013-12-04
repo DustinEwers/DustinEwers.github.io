@@ -3,10 +3,10 @@ layout: default
 ---
 <article>
 	<header>
-		<h2>{{ page.title }}</h2>
+		<h3>{{ page.title }}</h3>
 		<span>{{ page.date | date_to_string }}</span>
 	</header>
 	<p>
-		{{ page.content }}
+		{{ page.content | markdownify }}
 	</p>
 </article>	

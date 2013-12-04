@@ -7,8 +7,8 @@ layout: nil
         <description>{{ site.author.name }}</description>
         <link>{{ site.prod_url }}</link>
         <atom:link href="{{ site.prod_url }}/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-        <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 
 {% for post in site.posts %}
         <item>
@@ -16,7 +16,7 @@ layout: nil
                 <description>{{ post.content | xml_escape }}</description>
                 <guid>{{ site.prod_url }}{{ post.id }}</guid>
                 <link>{{ site.prod_url }}{{ post.url }}</link>
-                <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+                <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         </item>
 {% endfor %}
 
