@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div id="col-md-12">
+  <ul class="list-unstyled">
+    {% for post in site.posts %}
+      <li>
+		<a href="{{ post.url }}">&raquo; {{ post.date | date_to_string }} {{ post.title }}</a></h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
