@@ -31,19 +31,55 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 5297,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 452,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 400.0,
 		"selected_items":
 		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Code Folding: Unfold All"
+			]
 		],
-		"width": 0.0
+		"width": 408.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 123.0
 	},
 	"distraction_free":
 	{
@@ -56,22 +92,39 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Dustin/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/archive/index.html",
+		"/C/Users/Dustin/AppData/Roaming/Sublime Text 2/Packages/spacegray-master/Spacegray.sublime-theme",
+		"/C/Users/Dustin/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2013-12-02-test.md",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2013-12-01-test.md",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/css/main.css",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_layouts/default.html",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/rss.xml",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_config.yml",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/CNAME",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_layouts/post.html",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/Gemfile",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/Gemfile.lock",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/dustinewers.wordpress.2013-12-05.xml",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2013-09-14-how-i-passed-70-480-html5-javascript-css3.md",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2013-11-02-resources-for-learning-asp.net-mvc-and-preparing-for-exam-70-486.md",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2012-01-22-putting-yourself-in-the-user's-shoes.md",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2013-11-1-another-test-post.markdown",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2011-12-15-book-review-the-passionate-programmer-by-chad-fowler.html",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_layouts/bootstrap3.sublime-project",
+		"/D/Dustin/Documents/Code/DustinEwers.github.io/_layouts/bootstrap3.sublime-workspace",
 		"/C/cgminer-2.11.4-windows/mine_litecoins.bat",
 		"/C/cgminer-2.11.4-windows/mine_litecoins_high_intensity.bat",
 		"/D/Dustin/Documents/Code/bootstrap-3.0.2/_config.yml",
 		"/D/Dustin/Documents/Code/bootstrap-3.0.2/components.html",
-		"/D/Dustin/Documents/Code/DustinEwers.github.io/rss.xml",
 		"/D/Dustin/Documents/Code/DustinEwers.github.io/index.html",
-		"/D/Dustin/Documents/Code/DustinEwers.github.io/_layouts/default.html",
 		"/D/Dustin/Documents/Code/DustinEwers.github.io/about/index.html",
 		"/D/Dustin/Documents/Code/DustinEwers.github.io/resume/index.html",
 		"/D/Dustin/Documents/Code/DustinEwers.github.io/recommended-reading/index.html",
-		"/D/Dustin/Documents/Code/DustinEwers.github.io/_config.yml",
-		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2013-11-1-another-test-post.markdown",
 		"/C/Users/Dustin/Desktop/index.html",
 		"/D/Dustin/Documents/Code/DustinEwers.github.io/_site/recommended-reading/index.html",
 		"/D/Dustin/Documents/Code/DustinEwers.github.io/_site/jekyll/update/2013/11/10/another-test-post.html",
-		"/D/Dustin/Documents/Code/DustinEwers.github.io/Gemfile",
 		"/D/Dustin/Documents/Code/DustinEwers.github.io/_site/index.html",
 		"/D/Dustin/Documents/Code/DustinEwers.github.io/_posts/2013-11-10-welcome-to-jekyll.markdown",
 		"/C/Users/Dustin/Documents/GitHub/DustinEwers.github.io/index.html",
@@ -110,6 +163,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" {{",
+			"content",
+			"<description></description>",
+			"content:encoded",
+			"\n<",
+			"markdownify",
+			"Ewers",
 			"8000",
 			"image",
 			"background",
@@ -143,8 +203,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 5297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2083,
+								2083
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -204,6 +321,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 306.0,
+	"side_bar_width": 412.0,
 	"status_bar_visible": true
 }
