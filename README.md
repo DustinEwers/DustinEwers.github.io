@@ -1,7 +1,7 @@
 This repo holds the blog of Dustin J. Ewers
 =====================
 
-All content is copyrighted by me, but all code is licensed under MIT. 
+All text is licensed under [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US), and all code is licensed under MIT. 
 
 The MIT License (MIT)
 
